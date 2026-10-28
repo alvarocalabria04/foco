@@ -13,5 +13,4 @@ Una app de tareas con temporizador Pomodoro que hice para practicar JavaScript s
 ## Con qué está hecho
 HTML, CSS y JavaScript, sin frameworks.
 
-## Lo que aprendí
-(Escribe aquí una o dos frases tuyas: qué te costó, qué entendiste mejor, qué cambiarías.)
+

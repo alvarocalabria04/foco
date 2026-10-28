@@ -1,25 +1,17 @@
-# Foco 🍅
+# Foco
 
-Gestor de tareas con temporizador Pomodoro, hecho con **HTML, CSS y JavaScript puro** (sin dependencias ni build).
+Una app de tareas con temporizador Pomodoro que hice para practicar JavaScript sin librerías.
 
-## Funcionalidades
-- Añade, completa y borra tareas.
-- Elige la tarea en la que te quieres enfocar y arranca una sesión de 25 min (descanso de 5 min).
-- Cuenta las sesiones completadas por tarea.
-- Los datos se guardan en el navegador (`localStorage`).
-- Modo oscuro automático, diseño responsive y navegación por teclado.
+**Pruébala aquí:** https://alvarocalabria04.github.io/foco/
 
-## Uso
-Abre `index.html` en el navegador, o publícalo gratis con **GitHub Pages**:
-`Settings → Pages → Deploy from a branch → main / (root)`.
+## Qué hace
+- Apuntas tareas y eliges en cuál te quieres concentrar.
+- El temporizador cuenta 25 minutos de enfoque y 5 de descanso.
+- Cada tarea guarda cuántas sesiones llevas con ella.
+- Todo se guarda en el navegador, así que no pierdes nada al cerrar la pestaña.
 
-## Ideas para ampliarlo
-- Duraciones configurables
-- Sonido al terminar la sesión
-- Estadísticas semanales
+## Con qué está hecho
+HTML, CSS y JavaScript, sin frameworks.
 
-## Tecnologías
-HTML5 · CSS3 (variables, grid, `color-mix`) · JavaScript ES6+
-
-## Licencia
-MIT
+## Lo que aprendí
+(Escribe aquí una o dos frases tuyas: qué te costó, qué entendiste mejor, qué cambiarías.)

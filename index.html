@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foco · Tareas y temporizador</title>
+  <meta name="description" content="Gestor de tareas con temporizador Pomodoro. HTML, CSS y JavaScript puro.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="timer" aria-label="Temporizador">
+      <p id="modo" class="modo">Enfoque</p>
+      <div class="ring">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="bg" cx="60" cy="60" r="54"/>
+          <circle class="fg" id="arco" cx="60" cy="60" r="54"/>
+        </svg>
+        <output id="tiempo" role="timer">25:00</output>
+      </div>
+      <p id="actual" class="actual">Elige una tarea para empezar</p>
+      <div class="botones">
+        <button id="inicio" class="primario">Iniciar</button>
+        <button id="reinicio">Reiniciar</button>
+        <button id="saltar">Saltar</button>
+      </div>
+    </section>
+
+    <section class="tareas" aria-label="Tareas">
+      <h1>Foco</h1>
+      <form id="form">
+        <input id="nueva" type="text" placeholder="¿Qué vas a hacer?" autocomplete="off" required maxlength="80" aria-label="Nueva tarea">
+        <button class="primario">Añadir</button>
+      </form>
+      <ul id="lista"></ul>
+      <p id="resumen" class="resumen"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
